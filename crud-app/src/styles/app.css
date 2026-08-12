@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #f4f6fb;
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  .app {
+    width: 100%;
+    min-height: 100vh;
+  }
+  
+  .header {
+    background: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 25px;
+  }
+  
+  .header p {
+    margin-top: 8px;
+  }
+  
+  .dashboard {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .left-panel {
+    flex: 1;
+  }
+  
+  .right-panel {
+    flex: 2;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+  
+    box-shadow: 0 4px 15px
+      rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-card {
+    width: 400px;
+    margin: 50px auto;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+  
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 8px;
+  }
+  
+  .btn-primary {
+    background: #2563eb;
+  }
+  
+  .btn-success {
+    background: #16a34a;
+  }
+  
+  .btn-warning {
+    background: #f59e0b;
+  }
+  
+  .btn-danger {
+    background: #dc2626;
+  }
+  
+  .logout-btn {
+    width: 100%;
+    margin-top: 15px;
+  }
+  
+  .account-card h2 {
+    margin-bottom: 20px;
+  }
+  
+  .balance-card {
+    background: #eff6ff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .balance-card h1 {
+    color: #2563eb;
+    margin-top: 10px;
+  }
+  
+  .info-block {
+    margin-top: 20px;
+  }
+  
+  .info-block ul {
+    list-style: none;
+    margin-top: 10px;
+  }
+  
+  .info-block li {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .history-list {
+    list-style: none;
+  }
+  
+  .history-list li {
+    padding: 10px;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  
+  @media (max-width: 768px) {
+    .dashboard {
+      flex-direction: column;
+    }
+  
+    .login-card {
+      width: 95%;
+    }
+  }
